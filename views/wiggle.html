@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wiggle</title>
+</head>
+<style>
+    h1 {
+        animation: 3s linear 1s infinite wiggle-dance;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: palevioletred;
+        background: purple;
+        left: 50px;
+        margin: 0px;
+        padding: .5em;
+        position: absolute;
+        top: 50px;
+    }
+
+    @keyframes wiggle-dance {
+        0% {
+            left: 50px;
+        
+        }
+        90% {
+            left: 50px;
+        }
+
+        92.5% {
+            left: 55px;
+        }
+        95% {
+            left: 45px;
+        }
+
+        97.5% {
+            left: 55px;
+        }
+    }
+
+</style>
+<body>
+    <h1 class="wiggle-dance">Wiggle</h1>
+</body>
+</html>
